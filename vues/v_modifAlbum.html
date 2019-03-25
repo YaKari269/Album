@@ -1,0 +1,28 @@
+<div class="container page">
+	<div class="row">
+		<div class="titre col-md-12">
+			<h1>Modifier l'album</h1>
+		</div>
+	</div>
+	<div id="formAlbum" class="formulaire">
+		<form action="http://aichahkari.fr/album_photo/index.php?uc=gererAlbum&action=confirmerModifierAlbum" method="POST">
+			<fieldset>
+				<legend>Veuillez saisir tous les champs</legend>
+				<div id="input">
+					<label>Nom de l'album</label>
+					<input class="input" type="text" name="nomAlbum" placeholder=""/>
+					</br>
+					<label>Image de présentation</label>
+					<input class="input" type="file" name="imgPresentation"/>
+					</br>
+					<label>Description</label>
+					<input class="input" type="text" name="description" placeholder=""/>
+					</br>
+				</div>
+				<div id="bouton">
+					<input class="button" type="submit" name="modifier" value="Modifier">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>

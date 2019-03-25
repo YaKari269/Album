@@ -1,0 +1,112 @@
+@font-face{
+    font-family: 'Aku-Kamu';
+    src:url(fonts/aku_kamu/AkuKamu.otf);
+}
+/*/////////////////////////////////////////// menu////////////////////////////////////////*/
+#menu{
+	background-color: #0f75bc;
+    border-top-color: #b48a28;
+    border-top-style: solid;
+	width:100%;
+	margin: 0 1px;
+}
+#ssh{
+	padding: 0;
+}
+.navbar-inverse{
+  width: 1200px;
+  background-color: transparent;
+}
+
+.navbar-inverse a{
+  font-family: 'Aku-Kamu';
+  font-size: 15px;
+  line-height: 1px;
+}
+
+#logo, #nom{
+	width: 100px;
+    position: absolute;
+    top: 2px;
+}
+
+#logo img, #nom img{
+	width: 100%;
+}
+
+#logo{
+	left: 30px;
+}
+#nom{
+	left: 183px;
+}
+
+/*********************** MENU *******************************/
+@media (max-width: 2000px){
+  .navbar-inverse{
+    width: auto;
+    margin: 0;
+  }
+  
+  #autre{
+	  display: none;
+  }
+  
+  
+}
+
+@media (max-width: 992px){
+
+    .navbar-nav > .autre > a{
+    display: none;
+  }
+
+  .navbar-nav >.dropdown, #autre{
+    display: block;
+    text-transform: uppercase;
+  }
+
+}
+@media (max-width: 768px){
+
+ .navbar-inverse{
+    margin-left: 0px;
+  }
+  .container >.navbar-header > a{
+    display: block;
+    color: #FFF
+  }
+
+  .navbar-nav > .autre > a{
+    display: block;
+  }
+
+  #autre{
+    display: none;
+  }
+
+  .navbar-collapse > form{
+    display: block;
+  }
+
+  .navbar-toggle{
+    margin-top: 0;
+  }
+  
+#logo, #nom{
+	width: 70px;
+    position: absolute;
+}
+
+#logo img, #nom img{
+	width: 100%;
+}
+#nom{
+	left: 100px;
+}
+
+#logo{
+	left: 5px;
+}
+
+}
